@@ -27,4 +27,17 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Release\opencv_world400.dll">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\x64\Release\zdel_out.bat">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\x64\Release\cars.mp4">
+      <Filter>资源文件</Filter>
+    </Media>
+  </ItemGroup>
 </Project>

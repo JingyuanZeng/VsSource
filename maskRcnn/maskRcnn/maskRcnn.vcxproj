@@ -167,6 +167,13 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Release\opencv_world400.dll" />
+    <None Include="..\x64\Release\zdel_out.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\x64\Release\cars.mp4" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
